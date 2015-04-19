@@ -1,9 +1,35 @@
 # A sample Bowerfile
-# Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
+# Check out https,//github.com/42dev/bower-rails#ruby-dsl-configuration for more options
 
-
-
-asset 'angular'
-asset 'bootstrap-sass-official'
-# vim: ft=ruby
 # asset 'bootstrap'
+
+asset "jquery", "~2.1.1"
+asset "angular", "~1.2.28"
+asset "angular-resource", "~1.2.28"
+asset "angular-cookies", "~1.2.28"
+asset "angular-sanitize", "~1.2.28"
+asset "angular-route", "~1.2.28"
+asset "angular-animate", "~1.2.28"
+asset "angular-touch", "~1.2.28"
+asset "font-awesome", "~4.3.0"
+asset "bootstrap", "~3.3.0"
+asset "toastr", "~2.1.0"
+asset "seiyria-bootstrap-slider", "~4.4.1"
+asset "angular-bootstrap", "~0.12.0"
+asset "bootstrap-file-input", "~1.0.0"
+asset "jquery.easy-pie-chart", "~2.1.4"
+asset "jquery.slimscroll", "~1.3.1"
+asset "jquery-steps", "~1.1.0"
+asset "angular-wizard", "~0.4.0"
+asset "textAngular", "1.3.2"
+asset "angular-ui-tree", "~2.1.0"
+asset "ngmap", "~1.3.1"
+asset "ng-tags-input", "~2.1.1"
+asset "jquery-spinner", "~0.1.5"
+asset "flot", "~0.8.3"
+asset "flot.tooltip", "~0.8.4"
+asset "flot.curvedlines", "~0.6.4"
+asset "jvectormap", "~1.2.2"
+asset "weather-icons", "~1.3.2"
+asset "angular-loading-bar", "~0.6.0"
+asset "angular-scroll", "~0.6.5"

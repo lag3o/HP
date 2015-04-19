@@ -32,6 +32,16 @@ gem 'spring',        group: :development
 #Bower 
 gem 'bower-rails'
 gem 'sass', '3.2.19' 
+gem 'angular-rails-templates'
+
+gem "foreman"
+group :production, :staging do
+  gem "rails_12factor"
+  gem "rails_stdout_logging"
+  gem "rails_serve_static_assets"
+end
+
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
